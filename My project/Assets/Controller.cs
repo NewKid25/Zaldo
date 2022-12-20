@@ -6,8 +6,10 @@ public class Controller : MonoBehaviour
 {
     private Rigidbody2D rb;
 
-    private float x;
-    private float y;
+    private float horizontal;
+    private bool touch;
+
+    public float jumpForce = 20f;
     public float speed = 20f;
 
     // Start is called before the first frame update
@@ -19,22 +21,35 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x = Input.GetAxisRaw("Horizontal");
-         if (x!= 0)
+        horizontal = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetButtonDown("Jump") && touch)
         {
-            rb.AddForce(new Vector2(speed * x,0f));
-            // gameObject.transform.position += new Vector3(speed * moveh, 0f, 0f);
-
-        }
-
-        y = Input.GetAxisRaw("Vertical");
-        if (y != 0)
-        {
-            rb.AddForce(new Vector2 (0f, speed * y));
-
-           // Debug.Log("vertical");
-            //gameObject.transform.position += new Vector3(0f, speed * movev, 0f);
+            Jump();
         }
 
     }
+
+    void FixedUpdate()
+    {
+        rb.AddForce(Vector2.right * (horizontal * speed));
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground")) 
+        touch = true;
+    }
+
+    void OnCollisionExit2D(Collision2D collisionInfo)
+    {
+        touch = false;
+    }
+
+    private void Jump()
+    {
+        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    }
+
 }
