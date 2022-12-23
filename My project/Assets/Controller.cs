@@ -6,21 +6,28 @@ public class Controller : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer sprite;
+    private GameObject bowChild;
+
+    public Transform firePoint;
+    public GameObject projectilePrefab;
 
     private float horizontal;
     private bool touch;
     private float sqrSpeedCap;
-    private bool isFlipped;
+    private bool bowEnabled = true;
 
     public float jumpForce = 20f;
     public float moveForce = 20f;
     public float speedCap = 30f;
-
+   
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
+        sprite = gameObject.GetComponent<SpriteRenderer>(); 
+        bowChild = gameObject.transform.GetChild(0).gameObject;
 
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         sqrSpeedCap = speedCap * speedCap;
@@ -36,26 +43,36 @@ public class Controller : MonoBehaviour
             Jump();
         }
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            bowEnabled = !bowEnabled;
+            bowChild.SetActive(bowEnabled);
+            gameObject.GetComponent<HingeJoint2D>().connectedBody = bowChild.GetComponent<Rigidbody2D>();
+        }
+       
     }
 
     void FixedUpdate()
     {
         rb.AddForce(Vector2.right * (horizontal * moveForce));
 
-        if (horizontal < 0 && isFlipped == false)
+        if (!bowEnabled)
         {
-            Flip();
-        }
-        else if (horizontal > 0 && isFlipped == true)
-        {
-            Flip();
+            if (horizontal < 0 && sprite.flipX == false)
+            {
+               sprite.flipX = !sprite.flipX;
+            }
+            else if (horizontal > 0 && sprite.flipX == true)
+            {
+                sprite.flipX = !sprite.flipX;
+            }
         }
         //gameObject.transform.position += new Vector3(horizontal * speed,0f, 0f);
 
         if (rb.velocity.sqrMagnitude > sqrSpeedCap)
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, speedCap);
 
-        Debug.Log(rb.velocity.sqrMagnitude);
+        //Debug.Log(rb.velocity.sqrMagnitude);
     }
 
 
@@ -79,10 +96,9 @@ public class Controller : MonoBehaviour
         animator.Play("Player_Jump");
     }
 
-    void Flip()
+   /* public static bool Flip(bool isFlipped, SpriteRenderer sprite)
     {
-        gameObject.transform.Rotate(0f,180f, 0f);
-        isFlipped = !isFlipped;
-    }
-
+        isFlipped = sprite.flipY;
+        return !isFlipped;
+    }*/
 }
