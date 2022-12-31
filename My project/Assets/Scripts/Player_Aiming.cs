@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon_Aiming : MonoBehaviour
+public class Player_Aiming : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Camera cam;
@@ -32,7 +32,7 @@ public class Weapon_Aiming : MonoBehaviour
         if (lookDir.x < 0 && charSprite.flipX == false)
         {
             charSprite.flipX = !charSprite.flipX;
-           // Debug.Log("Flip Left");
+            // Debug.Log("Flip Left");
         }
         else if (lookDir.x > 0 && charSprite.flipX == true)
         {
