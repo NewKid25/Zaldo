@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floor_L
+      name: temple_tileset_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 042126c35ce39c94caa8facf33ddc84e
-      internalID: -1222045766
+      spriteID: aeae747d5f3924d42b15c42d838326cf
+      internalID: 1354963453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vines_1
+      name: temple_tileset_1
       rect:
         serializedVersion: 2
         x: 112
@@ -140,14 +140,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15f2883caf05efc4cb4fe9e45a296045
-      internalID: -720118914
+      spriteID: 4df0a64c4cd0422418396489da123885
+      internalID: 189472928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_1
+      name: temple_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811fcbd137963a74db1453603ccc3d76
+      internalID: 1882267017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_3
       rect:
         serializedVersion: 2
         x: 16
@@ -161,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c5b38549a81214d888cd89279d37b3
-      internalID: -1073386696
+      spriteID: f8de3b53793994d44ae70e3aa95b5486
+      internalID: -231067142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_2
+      name: temple_tileset_4
       rect:
         serializedVersion: 2
         x: 32
@@ -182,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a44de816f916f345a50a267c0a315c4
-      internalID: 286830522
+      spriteID: cf831e8d8f013d14b9b5d80a6f030118
+      internalID: -688952763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: floor_r
+      name: temple_tileset_5
       rect:
         serializedVersion: 2
         x: 48
@@ -203,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a7668e136c52d143b3f4c67f176d9f4
-      internalID: 1791078963
+      spriteID: ebed296688fb4f342917922c9118e6dd
+      internalID: -1585843219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lip_L
+      name: temple_tileset_6
       rect:
         serializedVersion: 2
         x: 64
@@ -224,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd9edba9925036e4b83d5551aa547a69
-      internalID: -1984314315
+      spriteID: cb8e64e02f5bc3b4cac1fda6b15a7e6d
+      internalID: 1443950425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lip_R
+      name: temple_tileset_7
       rect:
         serializedVersion: 2
         x: 80
@@ -245,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 075c75720bc3c5d4fad5d447cb2d54fc
-      internalID: -1715992353
+      spriteID: 26a8ecb246843694d80036dfad79e82d
+      internalID: -1478142379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ceiling_L
+      name: temple_tileset_8
       rect:
         serializedVersion: 2
         x: 0
@@ -266,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71bf02fe888033748bea1383976d6cf6
-      internalID: 2078973706
+      spriteID: c404a3b6ffc1e674d800d2e0ffbbb951
+      internalID: 1701196733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: filler_1
+      name: temple_tileset_9
       rect:
         serializedVersion: 2
         x: 16
@@ -287,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a147498c5987dfc44a1f72de8647dbdf
-      internalID: 1971045083
+      spriteID: 9edde192b22b6664fa743e1bfda2abdf
+      internalID: -1265086102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: filler_2
+      name: temple_tileset_10
       rect:
         serializedVersion: 2
         x: 32
@@ -308,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bfaa0b64529df94cbe3c45e79b598a7
-      internalID: -1853474293
+      spriteID: 50379a0784a39b644b4752b5d9574305
+      internalID: -873241904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ceiling_R
+      name: temple_tileset_11
       rect:
         serializedVersion: 2
         x: 48
@@ -329,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a541b95d8a25648bbac88673c62e12
-      internalID: -245292407
+      spriteID: 0b8b636c63df77440bb0f1de3a669db4
+      internalID: -700788987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vines_2
+      name: temple_tileset_12
       rect:
         serializedVersion: 2
         x: 112
@@ -350,35 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d40c139a431a2604e9372499a8bff9f3
-      internalID: -1366900623
+      spriteID: 58613add779aabd45b8b29aed533ab0c
+      internalID: 702824018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ceiling_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8f5fed8803d19742b5d6e9bc4fde21f
-      internalID: 729509657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ceiling_2
+      name: temple_tileset_13
       rect:
         serializedVersion: 2
         x: 32
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35e80c85c94c8b4388c32e8dd70de35
-      internalID: 1943637493
+      spriteID: ee7c26474b53fa741a793ef213a9726f
+      internalID: 1172660590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_1
+      name: temple_tileset_14
       rect:
         serializedVersion: 2
         x: 64
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b4ed51d5a8a589489ab30af78766bce
-      internalID: 26959207
+      spriteID: 4e8dcb7fef2b66148aa58969a4056741
+      internalID: -1879359992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upper_wall_L
+      name: temple_tileset_15
       rect:
         serializedVersion: 2
         x: 0
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14b5934fb76557439dda02d4e34032a
-      internalID: -1628844874
+      spriteID: 0d59c83b52bb60e439fb2051345c24c2
+      internalID: 760300281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: upper_wall_R
+      name: temple_tileset_16
       rect:
         serializedVersion: 2
         x: 16
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34735e2641b04364eb6f596622f2837e
-      internalID: -191561993
+      spriteID: 29bf3950191beb54b884c43a5809299f
+      internalID: -628031327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_2
+      name: temple_tileset_17
       rect:
         serializedVersion: 2
         x: 64
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 451a7d2f0e3e0d246a661e47f6b4db26
-      internalID: 136103973
+      spriteID: 22ff00769c54e3348b2349f187152aa7
+      internalID: 1279371739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_3
+      name: temple_tileset_18
       rect:
         serializedVersion: 2
         x: 80
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a934ed797a4ccf1409412b8ee0ec5c95
-      internalID: -1513069341
+      spriteID: 48e7f7c30d2dbbc4589726847f26ab74
+      internalID: -1671358422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_L
+      name: temple_tileset_19
       rect:
         serializedVersion: 2
         x: 0
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b06ef997d746df14c8b506359428ccf1
-      internalID: -208538937
+      spriteID: 01d8a0e962fbf6241ac36b8c73d467ab
+      internalID: 1930584548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wall_R
+      name: temple_tileset_20
       rect:
         serializedVersion: 2
         x: 16
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78faf81a49efc044faf84aa0f80815ff
-      internalID: -1250351565
+      spriteID: 6428fc5cd97bd044ab11c0e8e162015b
+      internalID: -502338825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_UL
+      name: temple_tileset_21
       rect:
         serializedVersion: 2
         x: 64
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aa4b39aef1161b449fd50c69a1ac224
-      internalID: -1084457096
+      spriteID: 9a61359d8e1db864c860a43e4fde0436
+      internalID: -560541531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_UR
+      name: temple_tileset_22
       rect:
         serializedVersion: 2
         x: 80
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f94add0d308444a92921bee09e5c54
-      internalID: 1019768148
+      spriteID: ca6273a603c9a9b41aa37c63c45a8ebf
+      internalID: 1525036373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lower_wall_L
+      name: temple_tileset_23
       rect:
         serializedVersion: 2
         x: 0
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f3c01b1300a95d4d8a17ac18dfd1bee
-      internalID: 1680510566
+      spriteID: 8b50b072729100d42a1fb6d3913ed99a
+      internalID: 486584452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lower_wall_R
+      name: temple_tileset_24
       rect:
         serializedVersion: 2
         x: 16
@@ -623,14 +623,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e78a6302e75ae0b4d9cf4bd60a4a22dd
-      internalID: 1483292225
+      spriteID: d98505791decacc43aca0cc57ad34878
+      internalID: -210220536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_LL
+      name: temple_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8470696936c2e7c4a943ed2d643c2042
+      internalID: -2024674153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d489f57635a98cb48a3f2d0b61540c49
+      internalID: 666957188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_27
       rect:
         serializedVersion: 2
         x: 64
@@ -644,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d767febf42372304a8bcc437f733788a
-      internalID: 1652037960
+      spriteID: 3505d7eee162309418a121cbedab871c
+      internalID: -1191636646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bkgd_LR
+      name: temple_tileset_28
       rect:
         serializedVersion: 2
         x: 80
@@ -665,8 +707,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e176b925b91bc344dba753545736205b
-      internalID: 1933691905
+      spriteID: 8b1a5c14b1cdab04491ba41a5f399a64
+      internalID: -367278686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e99a3f5796863478baa188abdd4272
+      internalID: 1121225221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a664051b9f5d0c4c88799b0549999a4
+      internalID: -922168710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d1064c452a152498131a15a67aa871
+      internalID: -1891935992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temple_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eefffbb70a82741971a6cd434d04b0
+      internalID: -1667366387
       vertices: []
       indices: 
       edges: []
@@ -682,33 +808,39 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      floor_r: 1791078963
-      filler_1: 1971045083
-      filler_2: -1853474293
-      ceiling_2: 1943637493
-      bkgd_3: -1513069341
-      bkgd_2: 136103973
-      bkgd_LR: 1933691905
-      upper_wall_L: -1628844874
-      bkgd_UL: -1084457096
-      bkgd_1: 26959207
-      bkgd_UR: 1019768148
-      bkgd_LL: 1652037960
-      floor_1: -1073386696
-      ceiling_R: -245292407
-      wall_L: -208538937
-      floor_2: 286830522
-      upper_wall_R: -191561993
-      lower_wall_L: 1680510566
-      lower_wall_R: 1483292225
-      lip_L: -1984314315
-      ceiling_L: 2078973706
-      ceiling_1: 729509657
-      lip_R: -1715992353
-      vines_1: -720118914
-      wall_R: -1250351565
-      floor_L: -1222045766
-      vines_2: -1366900623
+      temple_tileset_14: -1879359992
+      temple_tileset_5: -1585843219
+      temple_tileset_3: -231067142
+      temple_tileset_8: 1701196733
+      temple_tileset_10: -873241904
+      temple_tileset_28: -367278686
+      temple_tileset_7: -1478142379
+      temple_tileset_4: -688952763
+      temple_tileset_22: 1525036373
+      temple_tileset_15: 760300281
+      temple_tileset_21: -560541531
+      temple_tileset_13: 1172660590
+      temple_tileset_29: 1121225221
+      temple_tileset_18: -1671358422
+      temple_tileset_2: 1882267017
+      temple_tileset_12: 702824018
+      temple_tileset_19: 1930584548
+      temple_tileset_9: -1265086102
+      temple_tileset_31: -1891935992
+      temple_tileset_16: -628031327
+      temple_tileset_32: -1667366387
+      temple_tileset_17: 1279371739
+      temple_tileset_23: 486584452
+      temple_tileset_24: -210220536
+      temple_tileset_11: -700788987
+      temple_tileset_1: 189472928
+      temple_tileset_27: -1191636646
+      temple_tileset_26: 666957188
+      temple_tileset_30: -922168710
+      temple_tileset_0: 1354963453
+      temple_tileset_25: -2024674153
+      temple_tileset_6: 1443950425
+      temple_tileset_20: -502338825
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
