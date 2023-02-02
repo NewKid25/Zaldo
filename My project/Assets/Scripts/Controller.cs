@@ -43,7 +43,7 @@ public class Controller : MonoBehaviour
             Jump();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.Q))
         {
             bowEnabled = !bowEnabled;
             bowChild.SetActive(bowEnabled);
@@ -90,15 +90,6 @@ public class Controller : MonoBehaviour
     private void Jump()
     {
          rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
-        //gameObject.transform.position += new Vector3(0f, jumpForce, 0f);
-
         animator.Play("Player_Jump");
     }
-
-   /* public static bool Flip(bool isFlipped, SpriteRenderer sprite)
-    {
-        isFlipped = sprite.flipY;
-        return !isFlipped;
-    }*/
 }
